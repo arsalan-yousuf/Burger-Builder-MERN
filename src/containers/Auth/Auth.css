@@ -1,0 +1,43 @@
+.Auth{
+    margin: 20px auto;
+    width: 80%;
+    text-align: center;
+    box-shadow: 0 2px 3px #ccc;
+    border: 1px solid #eee;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.Auth input{
+    width: 80%;
+    padding: 5px;
+    display: inline-block;
+}
+
+.Button {
+    background-color: transparent;
+    border: none;
+    color: white;
+    outline: none;
+    cursor: pointer;
+    font: inherit;
+    padding: 10px;
+    margin: 10px;
+    font-weight: bold;
+}
+
+.Success {
+    color: #5C9210;
+}
+
+.Disabled {
+    color: #ccc;
+    cursor: not-allowed;
+}
+
+
+@media (min-width: 600px){
+    .ContactData{
+        width: 500px;
+    }
+}
